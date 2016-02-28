@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>380</width>
+         <height>236</height>
+        </rect>
+      </property>
+  <property name='Prefab Brush Inital Properties'>
+   <string>Dialog</string>
+  </property>
+      <widget class='QLabel' name='Folder'>
+      <property name='geometry'>
+        <rect>
+         <x>2</x>
+         <y>0</y>
+         <width>150</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Prefabricate</string>
+         </property>
+      </widget>
+     <widget class='QTreeWidget' name='IDC_TREE1'>
+      <property name='geometry'>
+        <rect>
+         <x>7</x>
+         <y>20</y>
+         <width>387</width>
+         <height>285</height>
+        </rect>
+      </property>
+     </widget>   
+      <widget class='QLabel' name='Files'>
+      <property name='geometry'>
+        <rect>
+         <x>7</x>
+         <y>310</y>
+         <width>147</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Prefabricated</string>
+         </property>
+      </widget>
+<!-- UNKNOWN_CONTROLE  LISTBOX LB_PREFS 3 133 155 101 LBS_SORT | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP WS_EX_STATICEDGE -->
+      <widget class='QLabel' name='(Left'>
+      <property name='geometry'>
+        <rect>
+         <x>412</x>
+         <y>0</y>
+         <width>340</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Preview</string>
+         </property>
+      </widget>
+      <widget class='QGroupBox' name='IDC_STATIC01'>
+      <property name='geometry'>
+        <rect>
+         <x>407</x>
+         <y>450</y>
+         <width>275</width>
+         <height>57</height>
+        </rect>
+      </property>
+        <property name='title'>
+         <string>Properties</string>
+        </property>
+        <property name='flat'>
+         <bool>true</bool>
+        </property>
+      </widget>
+    <widget class='QRadioButton' name='All'>
+      <property name='geometry'>
+        <rect>
+         <x>422</x>
+         <y>472</y>
+         <width>90</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Cut</string>
+       </property>
+      </widget>
+    <widget class='QRadioButton' name='RB_CUT'>
+      <property name='geometry'>
+        <rect>
+         <x>522</x>
+         <y>472</y>
+         <width>67</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Cut</string>
+       </property>
+      </widget>
+    <widget class='QRadioButton' name='RB_SOLID'>
+      <property name='geometry'>
+        <rect>
+         <x>597</x>
+         <y>472</y>
+         <width>77</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Solid</string>
+       </property>
+      </widget>
+      <widget class='QGroupBox' name='/2'>
+      <property name='geometry'>
+        <rect>
+         <x>687</x>
+         <y>450</y>
+         <width>245</width>
+         <height>57</height>
+        </rect>
+      </property>
+        <property name='title'>
+         <string>Face</string>
+        </property>
+        <property name='flat'>
+         <bool>true</bool>
+        </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_REVERSE'>
+      <property name='geometry'>
+        <rect>
+         <x>707</x>
+         <y>475</y>
+         <width>107</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Re&amp;verse</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_SETDETAIL'>
+      <property name='geometry'>
+        <rect>
+         <x>842</x>
+         <y>475</y>
+         <width>85</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>&amp;Detail</string>
+       </property>
+      </widget>
+     <widget class='QPushButton' name='IDOK3'>
+      <property name='geometry'>
+        <rect>
+         <x>665</x>
+         <y>537</y>
+         <width>125</width>
+         <height>35</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>OK</string>
+        </property>
+       </widget>
+     <widget class='QPushButton' name='IDCANCEL4'>
+      <property name='geometry'>
+        <rect>
+         <x>802</x>
+         <y>537</y>
+         <width>125</width>
+         <height>35</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>Cancel</string>
+        </property>
+       </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

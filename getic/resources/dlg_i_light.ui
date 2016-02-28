@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>155</width>
+         <height>231</height>
+        </rect>
+      </property>
+  <property name='dlg_i_light'>
+   <string>Dialog</string>
+  </property>
+      <widget class='QLabel' name='IDC_STATIC0'>
+      <property name='geometry'>
+        <rect>
+         <x>12</x>
+         <y>5</y>
+         <width>57</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Radius</string>
+         </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_RADIUS'>
+      <property name='geometry'>
+        <rect>
+         <x>95</x>
+         <y>2</y>
+         <width>72</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+      <widget class='QLabel' name='IDC_STATIC1'>
+      <property name='geometry'>
+        <rect>
+         <x>12</x>
+         <y>32</y>
+         <width>67</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Intensity</string>
+         </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_INTENSITY'>
+      <property name='geometry'>
+        <rect>
+         <x>95</x>
+         <y>27</y>
+         <width>72</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+     <widget class='QPushButton' name='Color...'>
+      <property name='geometry'>
+        <rect>
+         <x>222</x>
+         <y>15</y>
+         <width>137</width>
+         <height>30</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>Light</string>
+        </property>
+       </widget>
+    <widget class='QCheckBox' name='CK_SPOT'>
+      <property name='geometry'>
+        <rect>
+         <x>12</x>
+         <y>125</y>
+         <width>90</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Spot</string>
+       </property>
+      </widget>
+      <widget class='QLabel' name='IDC_STATICA'>
+      <property name='geometry'>
+        <rect>
+         <x>25</x>
+         <y>157</y>
+         <width>47</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Angle</string>
+         </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_SPOTANGLE'>
+      <property name='geometry'>
+        <rect>
+         <x>87</x>
+         <y>155</y>
+         <width>72</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+      <widget class='QLabel' name='IDC_STATICD'>
+      <property name='geometry'>
+        <rect>
+         <x>25</x>
+         <y>182</y>
+         <width>72</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Direction</string>
+         </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_SDX'>
+      <property name='geometry'>
+        <rect>
+         <x>117</x>
+         <y>180</y>
+         <width>57</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_SDY'>
+      <property name='geometry'>
+        <rect>
+         <x>180</x>
+         <y>180</y>
+         <width>57</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_SDZ'>
+      <property name='geometry'>
+        <rect>
+         <x>242</x>
+         <y>180</y>
+         <width>57</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_HALLO'>
+      <property name='geometry'>
+        <rect>
+         <x>25</x>
+         <y>247</y>
+         <width>90</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Corona</string>
+       </property>
+      </widget>
+      <widget class='QLabel' name='Radius'>
+      <property name='geometry'>
+        <rect>
+         <x>27</x>
+         <y>277</y>
+         <width>90</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Min</string>
+         </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_MINHALLORADIUS'>
+      <property name='geometry'>
+        <rect>
+         <x>130</x>
+         <y>275</y>
+         <width>85</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+      <widget class='QLabel' name='Radius'>
+      <property name='geometry'>
+        <rect>
+         <x>25</x>
+         <y>307</y>
+         <width>95</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Max</string>
+         </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_MAXHALLORADIUS'>
+      <property name='geometry'>
+        <rect>
+         <x>130</x>
+         <y>302</y>
+         <width>85</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_DLIGHT'>
+      <property name='geometry'>
+        <rect>
+         <x>10</x>
+         <y>450</y>
+         <width>110</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Dynamics</string>
+       </property>
+      </widget>
+    <widget class='QRadioButton' name='RB_PULSEI'>
+      <property name='geometry'>
+        <rect>
+         <x>27</x>
+         <y>482</y>
+         <width>90</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Pulse</string>
+       </property>
+      </widget>
+    <widget class='QRadioButton' name='RB_RANDOMI'>
+      <property name='geometry'>
+        <rect>
+         <x>27</x>
+         <y>507</y>
+         <width>92</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Random</string>
+       </property>
+      </widget>
+    <widget class='QRadioButton' name='RB_VAWYI'>
+      <property name='geometry'>
+        <rect>
+         <x>252</x>
+         <y>507</y>
+         <width>90</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Wavy</string>
+       </property>
+      </widget>
+    <widget class='QRadioButton' name='RB_FLASHYI'>
+      <property name='geometry'>
+        <rect>
+         <x>142</x>
+         <y>482</y>
+         <width>90</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Flashy</string>
+       </property>
+      </widget>
+    <widget class='QRadioButton' name='RB_NORMALI'>
+      <property name='geometry'>
+        <rect>
+         <x>142</x>
+         <y>507</y>
+         <width>90</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Normal</string>
+       </property>
+      </widget>
+      <widget class='QLabel' name='Distance'>
+      <property name='geometry'>
+        <rect>
+         <x>27</x>
+         <y>342</y>
+         <width>105</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Min</string>
+         </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_MINDIST'>
+      <property name='geometry'>
+        <rect>
+         <x>147</x>
+         <y>337</y>
+         <width>85</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+      <widget class='QLabel' name='Distance'>
+      <property name='geometry'>
+        <rect>
+         <x>27</x>
+         <y>367</y>
+         <width>110</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Max</string>
+         </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_MAXDIST'>
+      <property name='geometry'>
+        <rect>
+         <x>147</x>
+         <y>367</y>
+         <width>85</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+      <widget class='QGroupBox' name='ST_02'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>217</y>
+         <width>382</width>
+         <height>192</height>
+        </rect>
+      </property>
+        <property name='title'>
+         <string>+Corona</string>
+        </property>
+        <property name='flat'>
+         <bool>true</bool>
+        </property>
+      </widget>
+      <widget class='QGroupBox' name='ST_13'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>417</y>
+         <width>382</width>
+         <height>152</height>
+        </rect>
+      </property>
+        <property name='title'>
+         <string>+Dynamics</string>
+        </property>
+        <property name='flat'>
+         <bool>true</bool>
+        </property>
+      </widget>
+     <widget class='QPushButton' name='Color...'>
+      <property name='geometry'>
+        <rect>
+         <x>222</x>
+         <y>52</y>
+         <width>137</width>
+         <height>30</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>Specular</string>
+        </property>
+       </widget>
+    <widget class='QCheckBox' name='attenuation'>
+      <property name='geometry'>
+        <rect>
+         <x>7</x>
+         <y>60</y>
+         <width>210</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Quadratic</string>
+       </property>
+      </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

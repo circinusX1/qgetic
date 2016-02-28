@@ -1,0 +1,704 @@
+<widget class='QMenuBar' name='menuBar'>
+   <property name='geometry'>
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>984</width>
+     <height>25</height>
+    </rect>
+   </property>
+    <widget class='QMenu' name='menu_no_na'>
+         <property name='title'>
+          <string>NO_NAME</string>
+         </property>
+    <widget class='QMenu' name='menu_file'>
+         <property name='title'>
+          <string>&amp;File</string>
+         </property>
+    <widget class='QMenu' name=' ID_FILE_NEW'>
+     <property name='title'>
+      <string>&amp;New\tCtrl+N</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_FILE_OPEN'>
+     <property name='title'>
+      <string>&amp;Open...\tCtrl+O</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_FILE_MERGE'>
+     <property name='title'>
+      <string>Merge\tCtrl+U</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_FILE_SAVE'>
+     <property name='title'>
+      <string>&amp;Save\tCtrl+S</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_FILE_SAVE_AS'>
+     <property name='title'>
+      <string>Save &amp;As...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_FILE_SAVESEL_AS'>
+     <property name='title'>
+      <string>Save Selection &amp;As...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_ADD_MODEL'>
+     <property name='title'>
+      <string>Save Prefabricate...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=''>
+     <property name='title'>
+      <string></string>
+     </property>
+    </widget>
+    <widget class='QMenu' name='menu_impor'>
+         <property name='title'>
+          <string>Import</string>
+         </property>
+    <widget class='QMenu' name=' MN_IMPP'>
+     <property name='title'>
+      <string>Import from Folder...</string>
+     </property>
+    </widget>
+    </widget>
+    <widget class='QMenu' name='menu_expor'>
+         <property name='title'>
+          <string>Export</string>
+         </property>
+    <widget class='QMenu' name=' MN_REMOVEE'>
+     <property name='title'>
+      <string></string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_EXPP'>
+     <property name='title'>
+      <string>Export To Folder...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_TO_XML'>
+     <property name='title'>
+      <string>Export to Text File...</string>
+     </property>
+    </widget>
+    </widget>
+    <widget class='QMenu' name=''>
+     <property name='title'>
+      <string></string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_LOADLASTBACKIP'>
+     <property name='title'>
+      <string>Load Last Autosaved Level</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=''>
+     <property name='title'>
+      <string></string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_FILE_MRU_FILE1 GRAYED'>
+     <property name='title'>
+      <string>Recent File</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=''>
+     <property name='title'>
+      <string></string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_APP_EXIT'>
+     <property name='title'>
+      <string>E&amp;xit</string>
+     </property>
+    </widget>
+    </widget>
+    <widget class='QMenu' name='menu_edit'>
+         <property name='title'>
+          <string>&amp;Edit</string>
+         </property>
+    <widget class='QMenu' name=' MN_UNDO'>
+     <property name='title'>
+      <string>Undo\tCtrl+Z</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_CUT'>
+     <property name='title'>
+      <string>Cu&amp;t\tCtrl+X</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_EDIT_COPY'>
+     <property name='title'>
+      <string>&amp;Copy\tCtrl+C</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_EDIT_PASTE'>
+     <property name='title'>
+      <string>&amp;Paste\tCtrl+V</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name='menu_brush'>
+         <property name='title'>
+          <string>&amp;Brush</string>
+         </property>
+    <widget class='QMenu' name=' ID_SELECTALL'>
+     <property name='title'>
+      <string>Select &amp;All Brushes\tCtrl+A</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_DETBRUSHES'>
+     <property name='title'>
+      <string>Select All Detail Brushes</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_SELNONDETBRUSHES'>
+     <property name='title'>
+      <string>Select All Non Detail Brushes</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_SELCURID'>
+     <property name='title'>
+      <string>Select All C&amp;opies\tCtrl+K</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_SELECTGROUP'>
+     <property name='title'>
+      <string>Select Current &amp;Group\tCtrl+G</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_BUREVERSE'>
+     <property name='title'>
+      <string>Reverse Vertex &amp;Order</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_TRIANGULATE'>
+     <property name='title'>
+      <string>Triangulate\tCtrl+T</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_TRIFAN'>
+     <property name='title'>
+      <string>Triangulate Fan\tCtrl+Shift+T</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_MATCHWIDTH'>
+     <property name='title'>
+      <string>Fit Cut with Brush\tCtrl+M</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_TERVOL'>
+     <property name='title'>
+      <string>Volumize Terrain\tCtrl+Y</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' KEY_BSPCURSEL'>
+     <property name='title'>
+      <string>BSP-Test Current Brush\tCtrl_Shift+B</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_DELETE'>
+     <property name='title'>
+      <string>Delete\tDel</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' TB_COLOR'>
+     <property name='title'>
+      <string>Set Color...</string>
+     </property>
+    </widget>
+    </widget>
+    <widget class='QMenu' name='menu_face'>
+         <property name='title'>
+          <string>&amp;Face</string>
+         </property>
+    <widget class='QMenu' name=' ID_SELECTALL'>
+     <property name='title'>
+      <string>Select &amp;All Faces\tCtrl+A</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_SELSAMEASSELFACE'>
+     <property name='title'>
+      <string>&amp;Select Same Off-Center Faces\tCtrl+F</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_SAMETEXFACE'>
+     <property name='title'>
+      <string>Select All Same &amp;Texture Faces\tCtr+G</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_SAMENORMFACE'>
+     <property name='title'>
+      <string>Select All Same &amp;Normal Faces\tCtrl+H</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_EXTRUDE'>
+     <property name='title'>
+      <string>Extrude Face\tCtrl+E</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_DELETE'>
+     <property name='title'>
+      <string>Delete Face\tDel</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' TB_COLOR'>
+     <property name='title'>
+      <string>Set Color...</string>
+     </property>
+    </widget>
+    </widget>
+    <widget class='QMenu' name='menu_verte'>
+         <property name='title'>
+          <string>&amp;Vertex</string>
+         </property>
+    <widget class='QMenu' name=' TB_COLOR'>
+     <property name='title'>
+      <string>Set Color...</string>
+     </property>
+    </widget>
+    </widget>
+    <widget class='QMenu' name=' MN_MAN_TEX GRAYED'>
+     <property name='title'>
+      <string>Mannage Texture...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=''>
+     <property name='title'>
+      <string></string>
+     </property>
+    </widget>
+    <widget class='QMenu' name='menu_mirro'>
+         <property name='title'>
+          <string>&amp;Mirror Brush(es)</string>
+         </property>
+    <widget class='QMenu' name=' MN_XOY'>
+     <property name='title'>
+      <string>xOy</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_XOZ'>
+     <property name='title'>
+      <string>xOz</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_ZOY'>
+     <property name='title'>
+      <string>zOy</string>
+     </property>
+    </widget>
+    </widget>
+    <widget class='QMenu' name=''>
+     <property name='title'>
+      <string></string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_PERMCUT'>
+     <property name='title'>
+      <string>Make Permanent CSG\tCtrl+U</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_MERGE'>
+     <property name='title'>
+      <string>Merge Brushes\tCtrl+'+'</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_REPOINT'>
+     <property name='title'>
+      <string>Move Closed Vertexes\tCtrl+J </string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_REPOINTBRSH'>
+     <property name='title'>
+      <string>Move Brushes on Vertexes\tCtrl+R </string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_ALBYBOX'>
+     <property name='title'>
+      <string>Align By Selection Box\tCtrl+K</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_EVALDETS'>
+     <property name='title'>
+      <string>Evaluate Details...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_SNAPVXES'>
+     <property name='title'>
+      <string>Snap Vertexes to Grid (non details only)</string>
+     </property>
+    </widget>
+    </widget>
+    <widget class='QMenu' name='menu_view'>
+         <property name='title'>
+          <string>&amp;View</string>
+         </property>
+    <widget class='QMenu' name=' TB_MAKE'>
+     <property name='title'>
+      <string>Items Toolbar</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' TB_QUADRAICS GRAYED'>
+     <property name='title'>
+      <string>Curves Toobar</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' TB_SELECT'>
+     <property name='title'>
+      <string>Selection Toolbar</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' TB_MOVE'>
+     <property name='title'>
+      <string>Move/Size/Rotate Toobar</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' TB_ALIGN'>
+     <property name='title'>
+      <string>Align Toolbar</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' TB_VIEWS'>
+     <property name='title'>
+      <string>View Modes Toolbar</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' TB_CSG'>
+     <property name='title'>
+      <string>CSG Mode Toolbar</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' TB_BUILD'>
+     <property name='title'>
+      <string>BSP Build Toolbar</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' TB_SLINETTIP'>
+     <property name='title'>
+      <string>Quick Tip Tool Bar</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=''>
+     <property name='title'>
+      <string></string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_BUWIREFRAME'>
+     <property name='title'>
+      <string>&amp;3D WireFrame</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_BUSHOWBACK'>
+     <property name='title'>
+      <string>&amp;Back Face </string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_BUSHOWCSG'>
+     <property name='title'>
+      <string>CSG Geometry</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=''>
+     <property name='title'>
+      <string></string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_SCRIPT'>
+     <property name='title'>
+      <string>Script Editor...\tF9</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_TEXREFDLG'>
+     <property name='title'>
+      <string>Textures Meter...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_LEAFS'>
+     <property name='title'>
+      <string>Leaf explorer...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=''>
+     <property name='title'>
+      <string></string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_VIEW_STATUS_BAR'>
+     <property name='title'>
+      <string>&amp;Status Bar</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_WINDOW_SPLIT'>
+     <property name='title'>
+      <string>S&amp;plit</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=''>
+     <property name='title'>
+      <string></string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_SHOWGRID'>
+     <property name='title'>
+      <string>Show Grid\tCtrl+1</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_WBCK'>
+     <property name='title'>
+      <string>White Backgroud\tCtrl+2</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_SHOWSELBBOX'>
+     <property name='title'>
+      <string>Show Selection Box\tCtrl+L</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_CAM_LSPOT'>
+     <property name='title'>
+      <string>Camera Light\tCtrl+W</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' PB_REFR'>
+     <property name='title'>
+      <string>Refresh</string>
+     </property>
+    </widget>
+    </widget>
+    <widget class='QMenu' name='menu_inser'>
+         <property name='title'>
+          <string>&amp;Insert</string>
+         </property>
+    <widget class='QMenu' name=' ID_MK_BOX'>
+     <property name='title'>
+      <string>&amp;Box. ..</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_BUCYL'>
+     <property name='title'>
+      <string>&amp;Cylinder...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_BUCONE'>
+     <property name='title'>
+      <string>Co&amp;ne / Pyramide...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_BUSTAIRS'>
+     <property name='title'>
+      <string>&amp;Staircase...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_BUSHEET'>
+     <property name='title'>
+      <string>Sheet...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_BUSPHERE'>
+     <property name='title'>
+      <string>S&amp;phere...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_TERIAN'>
+     <property name='title'>
+      <string>Carving Terrain...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_TERIANBIG'>
+     <property name='title'>
+      <string>Terrain... </string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_INSPREF'>
+     <property name='title'>
+      <string>&amp;Prefabs...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_INSFACE'>
+     <property name='title'>
+      <string>Face\tCtrl+Q</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_INSVX'>
+     <property name='title'>
+      <string>Vertex\tAlt+L-Click</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_PROJ_BRUSH'>
+     <property name='title'>
+      <string>Projector\tCtrl+P</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_CREATESB'>
+     <property name='title'>
+      <string>Selection Box\tCtrl+B</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=''>
+     <property name='title'>
+      <string></string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_INSITEM'>
+     <property name='title'>
+      <string>Scene Ite&amp;m...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_SCRIPTBLOCK'>
+     <property name='title'>
+      <string>Script Block...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=''>
+     <property name='title'>
+      <string></string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_PROJ_BRUSH'>
+     <property name='title'>
+      <string>Pro&amp;jector\tCtrl+P</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' PB_PARSKIN'>
+     <property name='title'>
+      <string>Extruded 2D Shape...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name='menu_trian'>
+         <property name='title'>
+          <string>Triangulated Mo&amp;dels</string>
+         </property>
+    <widget class='QMenu' name=' MN_CUBEMODEL'>
+     <property name='title'>
+      <string>&amp;Cube...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_CONEMODEL'>
+     <property name='title'>
+      <string>&amp;Cone...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_SPHEREMODEL'>
+     <property name='title'>
+      <string>&amp;Sphere...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_CYLMODEL'>
+     <property name='title'>
+      <string>&amp;Cylinder...</string>
+     </property>
+    </widget>
+    </widget>
+    </widget>
+    <widget class='QMenu' name='menu_selec'>
+         <property name='title'>
+          <string>Se&amp;lect</string>
+         </property>
+    <widget class='QMenu' name=' ID_BUTSELBRUSH'>
+     <property name='title'>
+      <string>Select Brush</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_BUFACESEL'>
+     <property name='title'>
+      <string>Select &amp;Face</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_SELEDGE'>
+     <property name='title'>
+      <string>Select Edge</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_SELVERTEX'>
+     <property name='title'>
+      <string>Select &amp;Vertex</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_SELITEM'>
+     <property name='title'>
+      <string>Select &amp;Item</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=''>
+     <property name='title'>
+      <string></string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_BUMOVE'>
+     <property name='title'>
+      <string>Mov&amp;e</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_BUSCALE'>
+     <property name='title'>
+      <string>Scale</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_BUROTATE'>
+     <property name='title'>
+      <string>Rotate</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' KEY_BSPCURSEL'>
+     <property name='title'>
+      <string>Test BSP</string>
+     </property>
+    </widget>
+    </widget>
+    <widget class='QMenu' name='menu_proje'>
+         <property name='title'>
+          <string>&amp;Project</string>
+         </property>
+    <widget class='QMenu' name=' MN_COMPILEROPTIONS'>
+     <property name='title'>
+      <string>Compiler &amp;Options...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=''>
+     <property name='title'>
+      <string></string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_RECLMAPS'>
+     <property name='title'>
+      <string>&amp;Build Light Maps</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_BUCOMPILE'>
+     <property name='title'>
+      <string>&amp;Compile..</string>
+     </property>
+    </widget>
+    </widget>
+    <widget class='QMenu' name='menu_setti'>
+         <property name='title'>
+          <string>&amp;Settings</string>
+         </property>
+    <widget class='QMenu' name=' MN_INSGAMEITEM'>
+     <property name='title'>
+      <string>Configure Items Categories...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' MN_GLOBALS'>
+     <property name='title'>
+      <string>&amp;Preferences...</string>
+     </property>
+    </widget>
+    </widget>
+    <widget class='QMenu' name='menu_help'>
+         <property name='title'>
+          <string>&amp;Help</string>
+         </property>
+    <widget class='QMenu' name=' MN_HELP'>
+     <property name='title'>
+      <string>&amp;Help...</string>
+     </property>
+    </widget>
+    <widget class='QMenu' name=' ID_APP_ABOUT'>
+     <property name='title'>
+      <string>&amp;About GETIC...</string>
+     </property>
+    </widget>
+    </widget>
+    </widget>

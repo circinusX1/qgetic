@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>155</width>
+         <height>164</height>
+        </rect>
+      </property>
+  <property name='dlg_i_gameitm'>
+   <string>Dialog</string>
+  </property>
+<!-- UNKNOWN_CONTROLE  LISTBOX LB_PROPSCAT 2 12 146 146 LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP WS_EX_STATICEDGE -->
+      <widget class='QLabel' name='Category'>
+      <property name='geometry'>
+        <rect>
+         <x>5</x>
+         <y>5</y>
+         <width>110</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Item</string>
+         </property>
+      </widget>
+      <widget class='QLabel' name='ST_CATNAME'>
+      <property name='geometry'>
+        <rect>
+         <x>127</x>
+         <y>5</y>
+         <width>135</width>
+         <height>22</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Static</string>
+         </property>
+      </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

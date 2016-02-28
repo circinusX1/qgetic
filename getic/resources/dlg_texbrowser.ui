@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>322</width>
+         <height>170</height>
+        </rect>
+      </property>
+  <property name='Texture Browser'>
+   <string>Dialog</string>
+  </property>
+     <widget class='QPushButton' name='IDCANCEL0'>
+      <property name='geometry'>
+        <rect>
+         <x>652</x>
+         <y>387</y>
+         <width>125</width>
+         <height>35</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>Cancel</string>
+        </property>
+       </widget>
+     <widget class='QPushButton' name='PB_SELECT'>
+      <property name='geometry'>
+        <rect>
+         <x>512</x>
+         <y>387</y>
+         <width>125</width>
+         <height>35</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>Select</string>
+        </property>
+       </widget>
+     <widget class='QTreeWidget' name='TR_DIRS'>
+      <property name='geometry'>
+        <rect>
+         <x>12</x>
+         <y>12</y>
+         <width>337</width>
+         <height>362</height>
+        </rect>
+      </property>
+     </widget>   
+<!-- UNKNOWN_CONTROLE  LISTBOX IDC_LIST1 145 5 165 145 NOT LBS_NOTIFY | LBS_OWNERDRAWVARIABLE | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP WS_EX_STATICEDGE -->
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

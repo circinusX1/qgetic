@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>90</width>
+         <height>14</height>
+        </rect>
+      </property>
+  <property name='dl_rgb'>
+   <string>Dialog</string>
+  </property>
+    <widget class='QLineEdit' name='IDC_EDIT1'>
+      <property name='geometry'>
+        <rect>
+         <x>7</x>
+         <y>0</y>
+         <width>60</width>
+         <height>30</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='IDC_EDIT2'>
+      <property name='geometry'>
+        <rect>
+         <x>82</x>
+         <y>0</y>
+         <width>60</width>
+         <height>30</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='IDC_EDIT3'>
+      <property name='geometry'>
+        <rect>
+         <x>155</x>
+         <y>0</y>
+         <width>62</width>
+         <height>30</height>
+        </rect>
+      </property>
+      </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

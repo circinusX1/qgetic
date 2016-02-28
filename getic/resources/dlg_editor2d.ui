@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>542</width>
+         <height>343</height>
+        </rect>
+      </property>
+  <property name='2D Editor'>
+   <string>Dialog</string>
+  </property>
+      <widget class='QLabel' name='ST_OUT'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>1352</width>
+         <height>50</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>X</string>
+         </property>
+      </widget>
+      <widget class='QGroupBox' name='IDC_STATIC01'>
+      <property name='geometry'>
+        <rect>
+         <x>12</x>
+         <y>70</y>
+         <width>287</width>
+         <height>715</height>
+        </rect>
+      </property>
+        <property name='title'>
+         <string>X</string>
+        </property>
+        <property name='flat'>
+         <bool>true</bool>
+        </property>
+      </widget>
+      <widget class='QLabel' name='ST_CUR'>
+      <property name='geometry'>
+        <rect>
+         <x>25</x>
+         <y>87</y>
+         <width>162</width>
+         <height>25</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>X</string>
+         </property>
+      </widget>
+      <widget class='QLabel' name='Control'>
+      <property name='geometry'>
+        <rect>
+         <x>37</x>
+         <y>135</y>
+         <width>155</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Loop</string>
+         </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_CPCTS'>
+      <property name='geometry'>
+        <rect>
+         <x>205</x>
+         <y>127</y>
+         <width>67</width>
+         <height>30</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QRadioButton' name='RB_RECT'>
+      <property name='geometry'>
+        <rect>
+         <x>42</x>
+         <y>185</y>
+         <width>137</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Rectangular</string>
+       </property>
+      </widget>
+    <widget class='QRadioButton' name='RB_SPLINE'>
+      <property name='geometry'>
+        <rect>
+         <x>42</x>
+         <y>217</y>
+         <width>87</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Spline</string>
+       </property>
+      </widget>
+    <widget class='QRadioButton' name='RB_NURB'>
+      <property name='geometry'>
+        <rect>
+         <x>45</x>
+         <y>250</y>
+         <width>87</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Nurbs</string>
+       </property>
+      </widget>
+      <widget class='QLabel' name='Order'>
+      <property name='geometry'>
+        <rect>
+         <x>37</x>
+         <y>302</y>
+         <width>97</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Curve</string>
+         </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_STPCTS'>
+      <property name='geometry'>
+        <rect>
+         <x>167</x>
+         <y>297</y>
+         <width>105</width>
+         <height>30</height>
+        </rect>
+      </property>
+      </widget>
+     <widget class='QPushButton' name='PB_CLEAR'>
+      <property name='geometry'>
+        <rect>
+         <x>150</x>
+         <y>365</y>
+         <width>125</width>
+         <height>35</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>C&amp;lear</string>
+        </property>
+       </widget>
+<!-- UNKNOWN_CONTROLE  ICON IDI_GET IDC_STATIC 15 285 21 20 -->
+      <widget class='QLabel' name='Ctrl'>
+      <property name='geometry'>
+        <rect>
+         <x>30</x>
+         <y>537</y>
+         <width>237</width>
+         <height>50</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Hold</string>
+         </property>
+      </widget>
+     <widget class='QPushButton' name='PB_PREV'>
+      <property name='geometry'>
+        <rect>
+         <x>325</x>
+         <y>812</y>
+         <width>125</width>
+         <height>35</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string><<</string>
+        </property>
+       </widget>
+     <widget class='QPushButton' name='PB_NEXT'>
+      <property name='geometry'>
+        <rect>
+         <x>462</x>
+         <y>812</y>
+         <width>125</width>
+         <height>35</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>>></string>
+        </property>
+       </widget>
+     <widget class='QPushButton' name='IDOK2'>
+      <property name='geometry'>
+        <rect>
+         <x>1082</x>
+         <y>812</y>
+         <width>125</width>
+         <height>35</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>OK</string>
+        </property>
+       </widget>
+     <widget class='QPushButton' name='IDCANCEL3'>
+      <property name='geometry'>
+        <rect>
+         <x>1220</x>
+         <y>810</y>
+         <width>125</width>
+         <height>35</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>Cancel</string>
+        </property>
+       </widget>
+      <widget class='QLabel' name='IDC_STATIC4'>
+      <property name='geometry'>
+        <rect>
+         <x>45</x>
+         <y>437</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>X</string>
+         </property>
+      </widget>
+      <widget class='QLabel' name='IDC_STATIC5'>
+      <property name='geometry'>
+        <rect>
+         <x>45</x>
+         <y>467</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Y</string>
+         </property>
+      </widget>
+      <widget class='QLabel' name='IDC_STATIC6'>
+      <property name='geometry'>
+        <rect>
+         <x>45</x>
+         <y>497</y>
+         <width>20</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Z</string>
+         </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_X'>
+      <property name='geometry'>
+        <rect>
+         <x>80</x>
+         <y>427</y>
+         <width>105</width>
+         <height>30</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_Y'>
+      <property name='geometry'>
+        <rect>
+         <x>80</x>
+         <y>460</y>
+         <width>105</width>
+         <height>30</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_Z'>
+      <property name='geometry'>
+        <rect>
+         <x>80</x>
+         <y>492</y>
+         <width>105</width>
+         <height>30</height>
+        </rect>
+      </property>
+      </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

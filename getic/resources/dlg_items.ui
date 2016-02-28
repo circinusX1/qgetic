@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>155</width>
+         <height>161</height>
+        </rect>
+      </property>
+  <property name='dlg_items'>
+   <string>Dialog</string>
+  </property>
+      <widget class='QLabel' name='IDC_STATIC0'>
+      <property name='geometry'>
+        <rect>
+         <x>12</x>
+         <y>330</y>
+         <width>65</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Position</string>
+         </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_POSX'>
+      <property name='geometry'>
+        <rect>
+         <x>112</x>
+         <y>330</y>
+         <width>72</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_POSY'>
+      <property name='geometry'>
+        <rect>
+         <x>187</x>
+         <y>330</y>
+         <width>72</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_POSZ'>
+      <property name='geometry'>
+        <rect>
+         <x>262</x>
+         <y>330</y>
+         <width>72</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+      <widget class='QLabel' name='IDC_STATIC1'>
+      <property name='geometry'>
+        <rect>
+         <x>10</x>
+         <y>262</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Group</string>
+         </property>
+      </widget>
+      <widget class='QComboBox' name='CB_GROUP'>
+      <property name='geometry'>
+        <rect>
+         <x>115</x>
+         <y>255</y>
+         <width>220</width>
+         <height>167</height>
+        </rect>
+      </property>
+      </widget>
+      <widget class='QLabel' name='IDC_STATIC2'>
+      <property name='geometry'>
+        <rect>
+         <x>12</x>
+         <y>297</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Name</string>
+         </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_NAME'>
+      <property name='geometry'>
+        <rect>
+         <x>112</x>
+         <y>297</y>
+         <width>222</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

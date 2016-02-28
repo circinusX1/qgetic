@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>65136</x>
+         <y>0</y>
+         <width>160</width>
+         <height>412</height>
+        </rect>
+      </property>
+  <property name='Tools'>
+   <string>Dialog</string>
+  </property>
+     <widget class='QPushButton' name='IDC_BUTTON3'>
+      <property name='geometry'>
+        <rect>
+         <x>412</x>
+         <y>940</y>
+         <width>95</width>
+         <height>87</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>OK</string>
+        </property>
+       </widget>
+      <widget class='QLabel' name='ST_MSG'>
+      <property name='geometry'>
+        <rect>
+         <x>7</x>
+         <y>992</y>
+         <width>392</width>
+         <height>25</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>X</string>
+         </property>
+      </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

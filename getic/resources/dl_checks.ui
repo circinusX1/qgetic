@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>90</width>
+         <height>13</height>
+        </rect>
+      </property>
+  <property name='dl_checks'>
+   <string>Dialog</string>
+  </property>
+    <widget class='QCheckBox' name='CK_1'>
+      <property name='geometry'>
+        <rect>
+         <x>7</x>
+         <y>5</y>
+         <width>22</width>
+         <height>20</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>X</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_2'>
+      <property name='geometry'>
+        <rect>
+         <x>30</x>
+         <y>5</y>
+         <width>22</width>
+         <height>20</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>X</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_3'>
+      <property name='geometry'>
+        <rect>
+         <x>52</x>
+         <y>5</y>
+         <width>22</width>
+         <height>20</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>X</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_4'>
+      <property name='geometry'>
+        <rect>
+         <x>75</x>
+         <y>5</y>
+         <width>22</width>
+         <height>20</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>X</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_5'>
+      <property name='geometry'>
+        <rect>
+         <x>100</x>
+         <y>5</y>
+         <width>22</width>
+         <height>20</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>X</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_6'>
+      <property name='geometry'>
+        <rect>
+         <x>122</x>
+         <y>5</y>
+         <width>22</width>
+         <height>20</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>X</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_7'>
+      <property name='geometry'>
+        <rect>
+         <x>145</x>
+         <y>5</y>
+         <width>22</width>
+         <height>20</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>X</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_8'>
+      <property name='geometry'>
+        <rect>
+         <x>167</x>
+         <y>5</y>
+         <width>22</width>
+         <height>20</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>X</string>
+       </property>
+      </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

@@ -1,0 +1,827 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>155</width>
+         <height>500</height>
+        </rect>
+      </property>
+  <property name='dlg_b_set'>
+   <string>Dialog</string>
+  </property>
+      <widget class='QGroupBox' name='IDC_STATIC10'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>362</width>
+         <height>217</height>
+        </rect>
+      </property>
+        <property name='title'>
+         <string>+Brush</string>
+        </property>
+        <property name='flat'>
+         <bool>true</bool>
+        </property>
+      </widget>
+      <widget class='QGroupBox' name='Brush1'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>235</y>
+         <width>365</width>
+         <height>525</height>
+        </rect>
+      </property>
+        <property name='title'>
+         <string>+Detail</string>
+        </property>
+        <property name='flat'>
+         <bool>true</bool>
+        </property>
+      </widget>
+      <widget class='QGroupBox' name='Dom2'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>762</y>
+         <width>365</width>
+         <height>102</height>
+        </rect>
+      </property>
+        <property name='title'>
+         <string>+Sky</string>
+        </property>
+        <property name='flat'>
+         <bool>true</bool>
+        </property>
+      </widget>
+    <widget class='QCheckBox' name='BSP'>
+      <property name='geometry'>
+        <rect>
+         <x>47</x>
+         <y>390</y>
+         <width>117</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Don't</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_DYNAMIC'>
+      <property name='geometry'>
+        <rect>
+         <x>47</x>
+         <y>485</y>
+         <width>117</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>&amp;Moving</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_CUT'>
+      <property name='geometry'>
+        <rect>
+         <x>32</x>
+         <y>37</y>
+         <width>82</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>&amp;Cut</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='&amp;All'>
+      <property name='geometry'>
+        <rect>
+         <x>137</x>
+         <y>37</y>
+         <width>92</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Cut</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_TERRAIN'>
+      <property name='geometry'>
+        <rect>
+         <x>262</x>
+         <y>37</y>
+         <width>95</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Terrain</string>
+       </property>
+      </widget>
+      <widget class='QLabel' name='IDC_STATIC3'>
+      <property name='geometry'>
+        <rect>
+         <x>15</x>
+         <y>90</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Group</string>
+         </property>
+      </widget>
+      <widget class='QComboBox' name='CB_GROUP'>
+      <property name='geometry'>
+        <rect>
+         <x>72</x>
+         <y>82</y>
+         <width>215</width>
+         <height>187</height>
+        </rect>
+      </property>
+      </widget>
+      <widget class='QLabel' name='IDC_STATIC4'>
+      <property name='geometry'>
+        <rect>
+         <x>15</x>
+         <y>117</y>
+         <width>50</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Nam&amp;e</string>
+         </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_NAME'>
+      <property name='geometry'>
+        <rect>
+         <x>75</x>
+         <y>117</y>
+         <width>210</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_DETAIL'>
+      <property name='geometry'>
+        <rect>
+         <x>25</x>
+         <y>305</y>
+         <width>85</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>&amp;Detail</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='Collide'>
+      <property name='geometry'>
+        <rect>
+         <x>47</x>
+         <y>365</y>
+         <width>117</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>&amp;No</string>
+       </property>
+      </widget>
+      <widget class='QComboBox' name='CB_CONTENT'>
+      <property name='geometry'>
+        <rect>
+         <x>127</x>
+         <y>262</y>
+         <width>210</width>
+         <height>225</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QCheckBox' name='(!)'>
+      <property name='geometry'>
+        <rect>
+         <x>32</x>
+         <y>822</y>
+         <width>92</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Rot</string>
+       </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_XR'>
+      <property name='geometry'>
+        <rect>
+         <x>132</x>
+         <y>825</y>
+         <width>67</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_YR'>
+      <property name='geometry'>
+        <rect>
+         <x>202</x>
+         <y>825</y>
+         <width>67</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_ZR'>
+      <property name='geometry'>
+        <rect>
+         <x>272</x>
+         <y>825</y>
+         <width>67</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QCheckBox' name='as'>
+      <property name='geometry'>
+        <rect>
+         <x>22</x>
+         <y>792</y>
+         <width>127</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Set</string>
+       </property>
+      </widget>
+      <widget class='QLabel' name='IDC_STATIC5'>
+      <property name='geometry'>
+        <rect>
+         <x>15</x>
+         <y>145</y>
+         <width>37</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Pos:</string>
+         </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_XC'>
+      <property name='geometry'>
+        <rect>
+         <x>75</x>
+         <y>145</y>
+         <width>67</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_YC'>
+      <property name='geometry'>
+        <rect>
+         <x>147</x>
+         <y>145</y>
+         <width>67</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_ZC'>
+      <property name='geometry'>
+        <rect>
+         <x>217</x>
+         <y>145</y>
+         <width>67</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+      <widget class='QLabel' name='IDC_STATIC6'>
+      <property name='geometry'>
+        <rect>
+         <x>15</x>
+         <y>172</y>
+         <width>32</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Box</string>
+         </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_W'>
+      <property name='geometry'>
+        <rect>
+         <x>75</x>
+         <y>172</y>
+         <width>67</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_H'>
+      <property name='geometry'>
+        <rect>
+         <x>147</x>
+         <y>172</y>
+         <width>67</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_D'>
+      <property name='geometry'>
+        <rect>
+         <x>217</x>
+         <y>172</y>
+         <width>67</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='EF_STEPSS'>
+      <property name='geometry'>
+        <rect>
+         <x>67</x>
+         <y>512</y>
+         <width>55</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_LOOP'>
+      <property name='geometry'>
+        <rect>
+         <x>135</x>
+         <y>512</y>
+         <width>72</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Loop</string>
+       </property>
+      </widget>
+     <widget class='QPushButton' name='Path'>
+      <property name='geometry'>
+        <rect>
+         <x>220</x>
+         <y>510</y>
+         <width>125</width>
+         <height>30</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>Create</string>
+        </property>
+       </widget>
+     <widget class='QListWidget' name='IDC_LIST1'>
+      <property name='geometry'>
+        <rect>
+         <x>10</x>
+         <y>545</y>
+         <width>350</width>
+         <height>205</height>
+        </rect>
+      </property>
+       </widget>
+      <widget class='QLabel' name='ST_STEPS'>
+      <property name='geometry'>
+        <rect>
+         <x>17</x>
+         <y>515</y>
+         <width>40</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Path</string>
+         </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_TRIANGS'>
+      <property name='geometry'>
+        <rect>
+         <x>195</x>
+         <y>310</y>
+         <width>132</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>T&amp;riangulated</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_SINGLETON'>
+      <property name='geometry'>
+        <rect>
+         <x>195</x>
+         <y>335</y>
+         <width>112</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Singleton</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_DISABLE'>
+      <property name='geometry'>
+        <rect>
+         <x>195</x>
+         <y>360</y>
+         <width>112</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Disabled</string>
+       </property>
+      </widget>
+      <widget class='QLabel' name='IDC_STATIC7'>
+      <property name='geometry'>
+        <rect>
+         <x>30</x>
+         <y>267</y>
+         <width>65</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Content</string>
+         </property>
+      </widget>
+    <widget class='QCheckBox' name='Billboard'>
+      <property name='geometry'>
+        <rect>
+         <x>47</x>
+         <y>417</y>
+         <width>117</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>S</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='Billboard'>
+      <property name='geometry'>
+        <rect>
+         <x>47</x>
+         <y>445</y>
+         <width>117</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>C</string>
+       </property>
+      </widget>
+      <widget class='QGroupBox' name='Terrain8'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>877</y>
+         <width>365</width>
+         <height>360</height>
+        </rect>
+      </property>
+        <property name='title'>
+         <string>+Big</string>
+        </property>
+        <property name='flat'>
+         <bool>true</bool>
+        </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_NOTILE'>
+      <property name='geometry'>
+        <rect>
+         <x>2</x>
+         <y>0</y>
+         <width>0</width>
+         <height>0</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>1</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_NOTILE1'>
+      <property name='geometry'>
+        <rect>
+         <x>92</x>
+         <y>935</y>
+         <width>75</width>
+         <height>20</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>2(Lm)</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_NOTILE2'>
+      <property name='geometry'>
+        <rect>
+         <x>7</x>
+         <y>0</y>
+         <width>0</width>
+         <height>0</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>3</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_NOTILE4'>
+      <property name='geometry'>
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>0</width>
+         <height>0</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>4</string>
+       </property>
+      </widget>
+      <widget class='QGroupBox' name='texture9'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>907</y>
+         <width>365</width>
+         <height>62</height>
+        </rect>
+      </property>
+        <property name='title'>
+         <string>Un-tiled</string>
+        </property>
+        <property name='flat'>
+         <bool>true</bool>
+        </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_GOR'>
+      <property name='geometry'>
+        <rect>
+         <x>25</x>
+         <y>1010</y>
+         <width>117</width>
+         <height>20</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Gouraud</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='Bright'>
+      <property name='geometry'>
+        <rect>
+         <x>25</x>
+         <y>1042</y>
+         <width>117</width>
+         <height>20</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Full</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='Lighting'>
+      <property name='geometry'>
+        <rect>
+         <x>187</x>
+         <y>1012</y>
+         <width>125</width>
+         <height>20</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>No</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='Lmap'>
+      <property name='geometry'>
+        <rect>
+         <x>187</x>
+         <y>1040</y>
+         <width>165</width>
+         <height>20</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Custom</string>
+       </property>
+      </widget>
+      <widget class='QGroupBox' name='IDC_STATIC1011'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>980</y>
+         <width>362</width>
+         <height>122</height>
+        </rect>
+      </property>
+        <property name='title'>
+         <string>Lighting</string>
+        </property>
+        <property name='flat'>
+         <bool>true</bool>
+        </property>
+      </widget>
+    <widget class='QLineEdit' name='T3_X'>
+      <property name='geometry'>
+        <rect>
+         <x>140</x>
+         <y>1162</y>
+         <width>67</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='T3_Z'>
+      <property name='geometry'>
+        <rect>
+         <x>240</x>
+         <y>1162</y>
+         <width>67</width>
+         <height>22</height>
+        </rect>
+      </property>
+      </widget>
+      <widget class='QGroupBox' name='Animmation12'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>1127</y>
+         <width>365</width>
+         <height>92</height>
+        </rect>
+      </property>
+        <property name='title'>
+         <string>Texture</string>
+        </property>
+        <property name='flat'>
+         <bool>true</bool>
+        </property>
+      </widget>
+    <widget class='QRadioButton' name='RB_TSHIFT'>
+      <property name='geometry'>
+        <rect>
+         <x>130</x>
+         <y>1190</y>
+         <width>75</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Shift</string>
+       </property>
+      </widget>
+    <widget class='QRadioButton' name='RB_TVIBR'>
+      <property name='geometry'>
+        <rect>
+         <x>235</x>
+         <y>1190</y>
+         <width>112</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Osscilate</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='Collide'>
+      <property name='geometry'>
+        <rect>
+         <x>187</x>
+         <y>1070</y>
+         <width>117</width>
+         <height>20</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>No</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_L0'>
+      <property name='geometry'>
+        <rect>
+         <x>12</x>
+         <y>1125</y>
+         <width>22</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>X</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_L1'>
+      <property name='geometry'>
+        <rect>
+         <x>40</x>
+         <y>1125</y>
+         <width>22</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>X</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_L2'>
+      <property name='geometry'>
+        <rect>
+         <x>65</x>
+         <y>1125</y>
+         <width>22</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>X</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_L3'>
+      <property name='geometry'>
+        <rect>
+         <x>90</x>
+         <y>1125</y>
+         <width>22</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>X</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='CK_DETACHED'>
+      <property name='geometry'>
+        <rect>
+         <x>47</x>
+         <y>335</y>
+         <width>117</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Detached</string>
+       </property>
+      </widget>
+      <widget class='QGroupBox' name='coord13'>
+      <property name='geometry'>
+        <rect>
+         <x>195</x>
+         <y>395</y>
+         <width>170</width>
+         <height>90</height>
+        </rect>
+      </property>
+        <property name='title'>
+         <string>Tex</string>
+        </property>
+        <property name='flat'>
+         <bool>true</bool>
+        </property>
+      </widget>
+    <widget class='QRadioButton' name='RB_LIN'>
+      <property name='geometry'>
+        <rect>
+         <x>217</x>
+         <y>422</y>
+         <width>87</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Linear</string>
+       </property>
+      </widget>
+    <widget class='QRadioButton' name='H'>
+      <property name='geometry'>
+        <rect>
+         <x>220</x>
+         <y>450</y>
+         <width>117</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Shperic</string>
+       </property>
+      </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

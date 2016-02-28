@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>416</width>
+         <height>48</height>
+        </rect>
+      </property>
+  <property name='dlg_compilerprog'>
+   <string>Dialog</string>
+  </property>
+     <widget class='QPushButton' name='PB_CANCEL'>
+      <property name='geometry'>
+        <rect>
+         <x>987</x>
+         <y>0</y>
+         <width>22</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>v</string>
+        </property>
+       </widget>
+     <widget class='QPushButton' name='PC_CLOSE'>
+      <property name='geometry'>
+        <rect>
+         <x>1012</x>
+         <y>0</y>
+         <width>25</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>X</string>
+        </property>
+       </widget>
+<!-- UNKNOWN_CONTROLE  LISTBOX IDC_LIST1 0 1 393 37 LBS_OWNERDRAWFIXED | LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP WS_EX_STATICEDGE -->
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

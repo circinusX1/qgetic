@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogNewBrush</class>
+ <widget class="QDialog" name="DialogNewBrush">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>593</width>
+    <height>329</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="IDCANCEL9">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>70</y>
+     <width>125</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="IDOK8">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>20</y>
+     <width>125</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Create</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>121</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <property name="fieldGrowthPolicy">
+     <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+    </property>
+    <item row="0" column="0">
+     <widget class="QRadioButton" name="RB_SOLID">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string>Solid</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QRadioButton" name="RB_CUT">
+      <property name="text">
+       <string>Cut</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QRadioButton" name="RB_CUTALL">
+      <property name="text">
+       <string>Cut All</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>20</y>
+     <width>141</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_2">
+    <item row="0" column="0">
+     <widget class="QRadioButton" name="RB_LINEAR">
+      <property name="text">
+       <string>Linear</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QRadioButton" name="RB_CYLINDRIC">
+      <property name="text">
+       <string>Cylindic</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QRadioButton" name="RB_SPHERIC">
+      <property name="text">
+       <string>Spheric</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QRadioButton" name="RB_ENVI">
+      <property name="text">
+       <string>Environment</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>121</width>
+     <height>56</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_3">
+    <item row="0" column="0">
+     <widget class="QCheckBox" name="CK_SPLITTER">
+      <property name="text">
+       <string>Splitter</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QCheckBox" name="CK_ZONE">
+      <property name="text">
+       <string>Zone</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>401</width>
+     <height>56</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="IDC_STATIC5">
+      <property name="text">
+       <string>Width</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="IDC_STATIC6">
+      <property name="text">
+       <string>Height</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="IDC_STATIC7">
+      <property name="text">
+       <string>Depth</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLineEdit" name="EF_WIDTH"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="EF_HEIGHT"/>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLineEdit" name="EF_DEPTH"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>20</y>
+     <width>111</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_4">
+    <item row="0" column="0">
+     <widget class="QCheckBox" name="CK_SETDETAIL">
+      <property name="text">
+       <string>&amp;Detail</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QCheckBox" name="CK_DETACHED">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Det&amp;ached</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QCheckBox" name="CK_SHELL">
+      <property name="text">
+       <string>&amp;Shell</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QSpinBox" name="IDC_SPIN1">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="minimum">
+       <number>2</number>
+      </property>
+      <property name="maximum">
+       <number>512</number>
+      </property>
+      <property name="value">
+       <number>16</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>160</y>
+     <width>111</width>
+     <height>56</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_5">
+    <item row="0" column="0">
+     <widget class="QCheckBox" name="CK_SKYDOM">
+      <property name="text">
+       <string>SkyDom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QCheckBox" name="CK_REVERSE">
+      <property name="text">
+       <string>Re&amp;verse</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>160</y>
+     <width>145</width>
+     <height>66</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="IDC_STATICVS">
+      <property name="text">
+       <string>V&amp;ertical</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QSpinBox" name="IDC_SPIN2">
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>64</number>
+      </property>
+      <property name="value">
+       <number>16</number>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="IDC_STATICRS">
+      <property name="text">
+       <string>&amp;Horizontal</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QSpinBox" name="IDC_SPIN3">
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>64</number>
+      </property>
+      <property name="value">
+       <number>16</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>401</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_6">
+    <item row="0" column="0">
+     <widget class="QLabel" name="Group">
+      <property name="text">
+       <string>Brush</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="ST_GROUP">
+      <property name="text">
+       <string>X</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>RB_SOLID</tabstop>
+  <tabstop>RB_CUT</tabstop>
+  <tabstop>CK_SPLITTER</tabstop>
+  <tabstop>CK_ZONE</tabstop>
+  <tabstop>CK_SETDETAIL</tabstop>
+  <tabstop>CK_DETACHED</tabstop>
+  <tabstop>CK_SHELL</tabstop>
+  <tabstop>CK_SKYDOM</tabstop>
+  <tabstop>CK_REVERSE</tabstop>
+  <tabstop>RB_LINEAR</tabstop>
+  <tabstop>RB_CYLINDRIC</tabstop>
+  <tabstop>RB_SPHERIC</tabstop>
+  <tabstop>RB_ENVI</tabstop>
+  <tabstop>IDC_SPIN2</tabstop>
+  <tabstop>IDC_SPIN3</tabstop>
+  <tabstop>EF_WIDTH</tabstop>
+  <tabstop>EF_HEIGHT</tabstop>
+  <tabstop>EF_DEPTH</tabstop>
+  <tabstop>IDOK8</tabstop>
+  <tabstop>IDCANCEL9</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

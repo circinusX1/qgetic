@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>372</width>
+         <height>76</height>
+        </rect>
+      </property>
+  <property name='Evaluate Details'>
+   <string>Dialog</string>
+  </property>
+      <widget class='QGroupBox' name='IDC_STATIC01'>
+      <property name='geometry'>
+        <rect>
+         <x>25</x>
+         <y>10</y>
+         <width>350</width>
+         <height>140</height>
+        </rect>
+      </property>
+        <property name='title'>
+         <string>Evaluation</string>
+        </property>
+        <property name='flat'>
+         <bool>true</bool>
+        </property>
+      </widget>
+    <widget class='QRadioButton' name='RB_FACES'>
+      <property name='geometry'>
+        <rect>
+         <x>62</x>
+         <y>42</y>
+         <width>87</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Faces</string>
+       </property>
+      </widget>
+    <widget class='QRadioButton' name='RB_BRUSHES'>
+      <property name='geometry'>
+        <rect>
+         <x>225</x>
+         <y>42</y>
+         <width>102</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>Brushes</string>
+       </property>
+      </widget>
+<!-- UNKNOWN_CONTROLE  CHECKBOX By Area CK_BYAREA 25 35 41 10 BS_FLAT | WS_DISABLED | WS_GROUP -->
+    <widget class='QCheckBox' name='Polygons'>
+      <property name='geometry'>
+        <rect>
+         <x>225</x>
+         <y>75</y>
+         <width>137</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>By</string>
+       </property>
+      </widget>
+    <widget class='QCheckBox' name='Details'>
+      <property name='geometry'>
+        <rect>
+         <x>225</x>
+         <y>110</y>
+         <width>135</width>
+         <height>25</height>
+        </rect>
+      </property>
+     <property name='text'>
+        <string>CSG</string>
+       </property>
+      </widget>
+     <widget class='QPushButton' name='IDOK2'>
+      <property name='geometry'>
+        <rect>
+         <x>637</x>
+         <y>105</y>
+         <width>125</width>
+         <height>35</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>OK</string>
+        </property>
+       </widget>
+     <widget class='QPushButton' name='IDCANCEL3'>
+      <property name='geometry'>
+        <rect>
+         <x>787</x>
+         <y>105</y>
+         <width>125</width>
+         <height>35</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>Cancel</string>
+        </property>
+       </widget>
+      <widget class='QLabel' name='ST_OUT'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>160</y>
+         <width>925</width>
+         <height>27</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>X</string>
+         </property>
+      </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

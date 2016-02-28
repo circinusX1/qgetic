@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>155</width>
+         <height>106</height>
+        </rect>
+      </property>
+  <property name='dlg_i_triger'>
+   <string>Dialog</string>
+  </property>
+<!-- UNKNOWN_CONTROLE  LISTBOX LB_DETBRUSHES 3 10 145 88 LBS_NOINTEGRALHEIGHT | WS_DISABLED | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP WS_EX_STATICEDGE -->
+      <widget class='QLabel' name='Brushes'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>122</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Target</string>
+         </property>
+      </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

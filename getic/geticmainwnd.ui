@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GeticMainWnd</class>
+ <widget class="QMainWindow" name="GeticMainWnd">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>984</width>
+    <height>685</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GeticMainWnd</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>984</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <widget class="QMenu" name="menu_Recent">
+     <property name="title">
+      <string>&amp;Recent</string>
+     </property>
+     <addaction name="separator"/>
+    </widget>
+    <addaction name="action_New_tCtrl_N"/>
+    <addaction name="action_Open_Ctrl_0"/>
+    <addaction name="separator"/>
+    <addaction name="action_Save_Ctrl_S"/>
+    <addaction name="actionSave_As_Ctrl_A"/>
+    <addaction name="separator"/>
+    <addaction name="actionImport"/>
+    <addaction name="action_Export_Ctrl_E"/>
+    <addaction name="separator"/>
+    <addaction name="menu_Recent"/>
+   </widget>
+   <widget class="QMenu" name="menu_Edit">
+    <property name="title">
+     <string>&amp;Edit</string>
+    </property>
+    <addaction name="action_Undo_Ctrl_Z"/>
+    <addaction name="action_Redo_Ctrl_X"/>
+    <addaction name="separator"/>
+    <addaction name="actionCut_Ctrl_x"/>
+    <addaction name="action_Copy_Ctrl_C"/>
+    <addaction name="action_Paste_Ctrl_P"/>
+   </widget>
+   <widget class="QMenu" name="menuAction">
+    <property name="title">
+     <string>Select</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionBrush_Ctrl_B"/>
+    <addaction name="actionFace_Ctrl_E"/>
+    <addaction name="actionVertex_Ctrl_T"/>
+    <addaction name="actionEdge_Ctrl_G"/>
+   </widget>
+   <widget class="QMenu" name="menuInsert">
+    <property name="title">
+     <string>Insert</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionBox_Ctrl_O"/>
+    <addaction name="actionCylinder_Ctrl_Y"/>
+    <addaction name="actionCone_Ctrl_N"/>
+    <addaction name="actionStairs_Ctrl_I"/>
+    <addaction name="actionSheet_Ctrl_H"/>
+    <addaction name="actionSphere_Ctrl_R"/>
+    <addaction name="actionTerrain_Ctrl_1"/>
+    <addaction name="actionTerrian_Triangulated_Ctrl_8"/>
+    <addaction name="action2D_Shape_Ctrl_9"/>
+    <addaction name="actionPrefabricate_Ctrl_Q"/>
+   </widget>
+   <widget class="QMenu" name="menuOperations">
+    <property name="title">
+     <string>Operations</string>
+    </property>
+    <addaction name="actionMove_Ctrl_M"/>
+    <addaction name="actionScale_Ctrl_L"/>
+    <addaction name="actionRotate_Ctrl_R"/>
+    <addaction name="separator"/>
+    <addaction name="actionSlide_Ctrl_S"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menu_Edit"/>
+   <addaction name="menuInsert"/>
+   <addaction name="menuAction"/>
+   <addaction name="menuOperations"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QDockWidget" name="bardlg_2">
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_2"/>
+  </widget>
+  <action name="action_New_tCtrl_N">
+   <property name="text">
+    <string>&amp;New Ctrl+N</string>
+   </property>
+  </action>
+  <action name="action_Open_Ctrl_0">
+   <property name="text">
+    <string>&amp;Open... Ctrl+O</string>
+   </property>
+  </action>
+  <action name="action_Save_Ctrl_S">
+   <property name="text">
+    <string>&amp;Save Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSave_As_Ctrl_A">
+   <property name="text">
+    <string>Save &amp;As... Ctrl+A</string>
+   </property>
+  </action>
+  <action name="actionImport">
+   <property name="text">
+    <string>&amp;Import... Ctrl+I</string>
+   </property>
+  </action>
+  <action name="action_Export_Ctrl_E">
+   <property name="text">
+    <string>&amp;Export... Ctrl+E</string>
+   </property>
+  </action>
+  <action name="action_Undo_Ctrl_Z">
+   <property name="text">
+    <string>&amp;Undo Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="action_Redo_Ctrl_X">
+   <property name="text">
+    <string>&amp;Redo Ctrl+Shift+Z</string>
+   </property>
+  </action>
+  <action name="actionCut_Ctrl_x">
+   <property name="text">
+    <string>Cut Ctrl+x</string>
+   </property>
+  </action>
+  <action name="action_Copy_Ctrl_C">
+   <property name="text">
+    <string>&amp;Copy Ctrl+C</string>
+   </property>
+  </action>
+  <action name="action_Paste_Ctrl_P">
+   <property name="text">
+    <string>&amp;Paste Ctrl+P</string>
+   </property>
+  </action>
+  <action name="actionBRUSH">
+   <property name="text">
+    <string>BRUSH</string>
+   </property>
+  </action>
+  <action name="actionMove_Ctrl_M">
+   <property name="text">
+    <string>Move Ctrl+M</string>
+   </property>
+  </action>
+  <action name="actionScale_Ctrl_L">
+   <property name="text">
+    <string>Scale Ctrl+L</string>
+   </property>
+  </action>
+  <action name="actionRotate_Ctrl_R">
+   <property name="text">
+    <string>Rotate Ctrl+R</string>
+   </property>
+  </action>
+  <action name="actionBrush_Ctrl_B">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Brush Ctrl+B</string>
+   </property>
+  </action>
+  <action name="actionFace_Ctrl_E">
+   <property name="text">
+    <string>Face Ctrl+E</string>
+   </property>
+  </action>
+  <action name="actionVertex_Ctrl_T">
+   <property name="text">
+    <string>Vertex Ctrl+T</string>
+   </property>
+  </action>
+  <action name="actionEdge_Ctrl_G">
+   <property name="text">
+    <string>Edge Ctrl+G</string>
+   </property>
+  </action>
+  <action name="actionBox_Ctrl_O">
+   <property name="text">
+    <string>Box Ctrl+1</string>
+   </property>
+  </action>
+  <action name="actionCylinder_Ctrl_Y">
+   <property name="text">
+    <string>Cylinder Ctrl+2</string>
+   </property>
+  </action>
+  <action name="actionCone_Ctrl_N">
+   <property name="text">
+    <string>Cone Ctrl+3</string>
+   </property>
+  </action>
+  <action name="actionStairs_Ctrl_I">
+   <property name="text">
+    <string>Stairs Ctrl+4</string>
+   </property>
+  </action>
+  <action name="actionSheet_Ctrl_H">
+   <property name="text">
+    <string>Sheet Ctrl+5</string>
+   </property>
+  </action>
+  <action name="actionSphere_Ctrl_R">
+   <property name="text">
+    <string>Sphere Ctrl+6</string>
+   </property>
+  </action>
+  <action name="actionTerrain_Ctrl_1">
+   <property name="text">
+    <string>Terrain Ctrl+7</string>
+   </property>
+  </action>
+  <action name="actionTerrian_Triangulated_Ctrl_8">
+   <property name="text">
+    <string>Terrian Triangulated Ctrl+8</string>
+   </property>
+  </action>
+  <action name="action2D_Shape_Ctrl_9">
+   <property name="text">
+    <string>2D Shape Ctrl+9</string>
+   </property>
+  </action>
+  <action name="actionPrefabricate_Ctrl_Q">
+   <property name="text">
+    <string>Prefabricate Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionSlide_Ctrl_S">
+   <property name="text">
+    <string>Slide Ctrl+S</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

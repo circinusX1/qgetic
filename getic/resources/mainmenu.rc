@@ -1,0 +1,171 @@
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "Merge\tCtrl+U",               ID_FILE_MERGE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM "Save Selection &As...",       ID_FILE_SAVESEL_AS
+        MENUITEM "Save Prefabricate...",        MN_ADD_MODEL
+        MENUITEM SEPARATOR
+        POPUP "Import"
+        BEGIN
+            MENUITEM "Import from Folder...",       MN_IMPP
+        END
+        POPUP "Export"
+        BEGIN
+            MENUITEM "",                            MN_REMOVEE
+            MENUITEM "Export To Folder...",         MN_EXPP
+            MENUITEM "Export to Text File...",      MN_TO_XML
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Load Last Autosaved Level",   MN_LOADLASTBACKIP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Undo\tCtrl+Z",                MN_UNDO
+        MENUITEM "Cu&t\tCtrl+X",                MN_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        POPUP "&Brush"
+        BEGIN
+            MENUITEM "Select &All Brushes\tCtrl+A", ID_SELECTALL
+            MENUITEM "Select All Detail Brushes",   MN_DETBRUSHES
+            MENUITEM "Select All Non Detail Brushes", MN_SELNONDETBRUSHES
+            MENUITEM "Select All C&opies\tCtrl+K",  MN_SELCURID
+            MENUITEM "Select Current &Group\tCtrl+G", MN_SELECTGROUP
+            MENUITEM "Reverse Vertex &Order",       ID_BUREVERSE
+            MENUITEM "Triangulate\tCtrl+T",         MN_TRIANGULATE
+            MENUITEM "Triangulate Fan\tCtrl+Shift+T", MN_TRIFAN
+            MENUITEM "Fit Cut with Brush\tCtrl+M",  ID_MATCHWIDTH
+            MENUITEM "Volumize Terrain\tCtrl+Y",    MN_TERVOL
+            MENUITEM "BSP-Test Current Brush\tCtrl_Shift+B", KEY_BSPCURSEL
+            MENUITEM "Delete\tDel",                 ID_DELETE
+            MENUITEM "Set Color...",                TB_COLOR
+        END
+        POPUP "&Face"
+        BEGIN
+            MENUITEM "Select &All Faces\tCtrl+A",   ID_SELECTALL
+            MENUITEM "&Select Same Off-Center Faces\tCtrl+F", ID_SELSAMEASSELFACE
+            MENUITEM "Select All Same &Texture Faces\tCtr+G", MN_SAMETEXFACE
+            MENUITEM "Select All Same &Normal Faces\tCtrl+H", MN_SAMENORMFACE
+            MENUITEM "Extrude Face\tCtrl+E",        MN_EXTRUDE
+            MENUITEM "Delete Face\tDel",            ID_DELETE
+            MENUITEM "Set Color...",                TB_COLOR
+        END
+        POPUP "&Vertex"
+        BEGIN
+            MENUITEM "Set Color...",                TB_COLOR
+        END
+        MENUITEM "Mannage Texture...",          MN_MAN_TEX, GRAYED
+        MENUITEM SEPARATOR
+        POPUP "&Mirror Brush(es)"
+        BEGIN
+            MENUITEM "xOy",                         MN_XOY
+            MENUITEM "xOz",                         MN_XOZ
+            MENUITEM "zOy",                         MN_ZOY
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Make Permanent CSG\tCtrl+U",  MN_PERMCUT
+        MENUITEM "Merge Brushes\tCtrl+'+'",     MN_MERGE
+        MENUITEM "Move Closed Vertexes\tCtrl+J ", MN_REPOINT
+        MENUITEM "Move Brushes on Vertexes\tCtrl+R ", MN_REPOINTBRSH
+        MENUITEM "Align By Selection Box\tCtrl+K", MN_ALBYBOX
+        MENUITEM "Evaluate Details...",         MN_EVALDETS
+        MENUITEM "Snap Vertexes to Grid (non details only)", MN_SNAPVXES
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "Items Toolbar",               TB_MAKE
+        MENUITEM "Curves Toobar",               TB_QUADRAICS, GRAYED
+        MENUITEM "Selection Toolbar",           TB_SELECT
+        MENUITEM "Move/Size/Rotate Toobar",     TB_MOVE
+        MENUITEM "Align Toolbar",               TB_ALIGN
+        MENUITEM "View Modes Toolbar",          TB_VIEWS
+        MENUITEM "CSG Mode Toolbar",            TB_CSG
+        MENUITEM "BSP Build Toolbar",           TB_BUILD
+        MENUITEM "Quick Tip Tool Bar",          TB_SLINETTIP
+        MENUITEM SEPARATOR
+        MENUITEM "&3D WireFrame",               ID_BUWIREFRAME
+        MENUITEM "&Back Face ",                 ID_BUSHOWBACK
+        MENUITEM "CSG Geometry",                ID_BUSHOWCSG
+        MENUITEM SEPARATOR
+        MENUITEM "Script Editor...\tF9",        MN_SCRIPT
+        MENUITEM "Textures Meter...",           MN_TEXREFDLG
+        MENUITEM "Leaf  explorer...",           MN_LEAFS
+        MENUITEM SEPARATOR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "S&plit",                      ID_WINDOW_SPLIT
+        MENUITEM SEPARATOR
+        MENUITEM "Show Grid\tCtrl+1",           MN_SHOWGRID
+        MENUITEM "White Backgroud\tCtrl+2",     MN_WBCK
+        MENUITEM "Show Selection Box\tCtrl+L",  MN_SHOWSELBBOX
+        MENUITEM "Camera Light\tCtrl+W",        ID_CAM_LSPOT
+        MENUITEM "Refresh",                     PB_REFR
+    END
+    POPUP "&Insert"
+    BEGIN
+        MENUITEM "&Box.,..",                    ID_MK_BOX
+        MENUITEM "&Cylinder...",                ID_BUCYL
+        MENUITEM "Co&ne / Pyramide...",         ID_BUCONE
+        MENUITEM "&Staircase...",               ID_BUSTAIRS
+        MENUITEM "Sheet...",                    ID_BUSHEET
+        MENUITEM "S&phere...",                  ID_BUSPHERE
+        MENUITEM "Carving Terrain...",          MN_TERIAN
+        MENUITEM "Terrain... ",                 MN_TERIANBIG
+        MENUITEM "&Prefabs...",                 MN_INSPREF
+        MENUITEM "Face\tCtrl+Q",                MN_INSFACE
+        MENUITEM "Vertex\tAlt+L-Click",         MN_INSVX
+        MENUITEM "Projector\tCtrl+P",           MN_PROJ_BRUSH
+        MENUITEM "Selection Box\tCtrl+B",       MN_CREATESB
+        MENUITEM SEPARATOR
+        MENUITEM "Scene Ite&m...",              MN_INSITEM
+        MENUITEM "Script Block...",             MN_SCRIPTBLOCK
+        MENUITEM SEPARATOR
+        MENUITEM "Pro&jector\tCtrl+P",          MN_PROJ_BRUSH
+        MENUITEM "Extruded 2D Shape...",        PB_PARSKIN
+        POPUP "Triangulated Mo&dels"
+        BEGIN
+            MENUITEM "&Cube...",                    MN_CUBEMODEL
+            MENUITEM "&Cone...",                    MN_CONEMODEL
+            MENUITEM "&Sphere...",                  MN_SPHEREMODEL
+            MENUITEM "&Cylinder...",                MN_CYLMODEL
+        END
+    END
+    POPUP "Se&lect"
+    BEGIN
+        MENUITEM "Select Brush",                ID_BUTSELBRUSH
+        MENUITEM "Select &Face",                ID_BUFACESEL
+        MENUITEM "Select Edge",                 MN_SELEDGE
+        MENUITEM "Select &Vertex",              MN_SELVERTEX
+        MENUITEM "Select &Item",                MN_SELITEM
+        MENUITEM SEPARATOR
+        MENUITEM "Mov&e",                       ID_BUMOVE
+        MENUITEM "Scale",                       ID_BUSCALE
+        MENUITEM "Rotate",                      ID_BUROTATE
+        MENUITEM "Test BSP",                    KEY_BSPCURSEL
+    END
+    POPUP "&Project"
+    BEGIN
+        MENUITEM "Compiler &Options...",        MN_COMPILEROPTIONS
+        MENUITEM SEPARATOR
+        MENUITEM "&Build Light Maps",           MN_RECLMAPS
+        MENUITEM "&Compile..",                  ID_BUCOMPILE
+    END
+    POPUP "&Settings"
+    BEGIN
+        MENUITEM "Configure Items Categories...", MN_INSGAMEITEM
+        MENUITEM "&Preferences...",             MN_GLOBALS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help...",                    MN_HELP
+        MENUITEM "&About GETIC...",             ID_APP_ABOUT
+    END
+END

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>378</width>
+         <height>342</height>
+        </rect>
+      </property>
+  <property name='Getic: Beam Tree Compiler Options'>
+   <string>Dialog</string>
+  </property>
+     <widget class='QPushButton' name='IDOK0'>
+      <property name='geometry'>
+        <rect>
+         <x>670</x>
+         <y>802</y>
+         <width>125</width>
+         <height>35</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>OK</string>
+        </property>
+       </widget>
+     <widget class='QPushButton' name='IDCANCEL1'>
+      <property name='geometry'>
+        <rect>
+         <x>807</x>
+         <y>802</y>
+         <width>125</width>
+         <height>35</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>Cancel</string>
+        </property>
+       </widget>
+<!-- UNKNOWN_CONTROLE  CTEXT QUAKE THERE IS NOTHING TO SET FOR QUAKE BSP ST_QUAKE 21 73 325 105 NOT WS_VISIBLE -->
+     <widget class='QListWidget' name='LB_COPRP'>
+      <property name='geometry'>
+        <rect>
+         <x>22</x>
+         <y>55</y>
+         <width>900</width>
+         <height>712</height>
+        </rect>
+      </property>
+       </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

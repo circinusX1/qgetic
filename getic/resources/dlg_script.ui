@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>155</width>
+         <height>296</height>
+        </rect>
+      </property>
+  <property name='dlg_script'>
+   <string>Dialog</string>
+  </property>
+     <widget class='QPushButton' name='PB_EDIT'>
+      <property name='geometry'>
+        <rect>
+         <x>185</x>
+         <y>660</y>
+         <width>87</width>
+         <height>25</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>Edit...</string>
+        </property>
+       </widget>
+     <widget class='QPushButton' name='PB_DEL'>
+      <property name='geometry'>
+        <rect>
+         <x>95</x>
+         <y>660</y>
+         <width>87</width>
+         <height>25</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>Delete</string>
+        </property>
+       </widget>
+     <widget class='QPushButton' name='PB_NEW'>
+      <property name='geometry'>
+        <rect>
+         <x>5</x>
+         <y>660</y>
+         <width>87</width>
+         <height>25</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>New...</string>
+        </property>
+       </widget>
+     <widget class='QListWidget' name='IDC_LIST1'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>12</y>
+         <width>372</width>
+         <height>637</height>
+        </rect>
+      </property>
+       </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

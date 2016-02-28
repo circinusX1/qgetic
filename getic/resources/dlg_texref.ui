@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>477</width>
+         <height>206</height>
+        </rect>
+      </property>
+  <property name='Textures Meter'>
+   <string>Dialog</string>
+  </property>
+     <widget class='QPushButton' name='IDCANCEL0'>
+      <property name='geometry'>
+        <rect>
+         <x>1050</x>
+         <y>462</y>
+         <width>125</width>
+         <height>35</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>Close</string>
+        </property>
+       </widget>
+     <widget class='QListWidget' name='LC_TEXREFS'>
+      <property name='geometry'>
+        <rect>
+         <x>12</x>
+         <y>12</y>
+         <width>587</width>
+         <height>437</height>
+        </rect>
+      </property>
+       </widget>
+      <widget class='QLabel' name='textures'>
+      <property name='geometry'>
+        <rect>
+         <x>12</x>
+         <y>475</y>
+         <width>152</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Total</string>
+         </property>
+      </widget>
+      <widget class='QLabel' name='ST_BMPSSZ'>
+      <property name='geometry'>
+        <rect>
+         <x>187</x>
+         <y>475</y>
+         <width>127</width>
+         <height>22</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Static</string>
+         </property>
+      </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

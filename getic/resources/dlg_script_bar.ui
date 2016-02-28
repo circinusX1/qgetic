@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>155</width>
+         <height>267</height>
+        </rect>
+      </property>
+  <property name='dlg_script_bar'>
+   <string>Dialog</string>
+  </property>
+     <widget class='QTreeWidget' name='TR_SCENE'>
+      <property name='geometry'>
+        <rect>
+         <x>2</x>
+         <y>30</y>
+         <width>367</width>
+         <height>277</height>
+        </rect>
+      </property>
+     </widget>   
+      <widget class='QLabel' name='IDC_STATIC0'>
+      <property name='geometry'>
+        <rect>
+         <x>15</x>
+         <y>5</y>
+         <width>55</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Scene</string>
+         </property>
+      </widget>
+      <widget class='QLabel' name='IDC_STATIC1'>
+      <property name='geometry'>
+        <rect>
+         <x>12</x>
+         <y>325</y>
+         <width>57</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Events</string>
+         </property>
+      </widget>
+<!-- UNKNOWN_CONTROLE  LISTBOX LB_EVENTS 1 140 146 120 LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP WS_EX_STATICEDGE -->
+     <widget class='QPushButton' name='PB_OK'>
+      <property name='geometry'>
+        <rect>
+         <x>262</x>
+         <y>320</y>
+         <width>107</width>
+         <height>27</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>OK</string>
+        </property>
+       </widget>
+     <widget class='QPushButton' name='PB_CANCEL'>
+      <property name='geometry'>
+        <rect>
+         <x>137</x>
+         <y>320</y>
+         <width>107</width>
+         <height>27</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>Cancel</string>
+        </property>
+       </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

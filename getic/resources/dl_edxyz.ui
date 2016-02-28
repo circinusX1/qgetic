@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>90</width>
+         <height>14</height>
+        </rect>
+      </property>
+  <property name='dl_edxyz'>
+   <string>Dialog</string>
+  </property>
+    <widget class='QLineEdit' name='E_X'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>40</width>
+         <height>27</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='E_Y'>
+      <property name='geometry'>
+        <rect>
+         <x>67</x>
+         <y>0</y>
+         <width>50</width>
+         <height>27</height>
+        </rect>
+      </property>
+      </widget>
+    <widget class='QLineEdit' name='E_Z'>
+      <property name='geometry'>
+        <rect>
+         <x>147</x>
+         <y>0</y>
+         <width>52</width>
+         <height>27</height>
+        </rect>
+      </property>
+      </widget>
+      <widget class='QSpinBox' name='S_X'>
+      <property name='geometry'>
+        <rect>
+         <x>42</x>
+         <y>0</y>
+         <width>20</width>
+         <height>30</height>
+        </rect>
+      </property>
+      </widget>
+      <widget class='QSpinBox' name='S_Y'>
+      <property name='geometry'>
+        <rect>
+         <x>120</x>
+         <y>0</y>
+         <width>22</width>
+         <height>30</height>
+        </rect>
+      </property>
+      </widget>
+      <widget class='QSpinBox' name='S_Z'>
+      <property name='geometry'>
+        <rect>
+         <x>205</x>
+         <y>0</y>
+         <width>22</width>
+         <height>30</height>
+        </rect>
+      </property>
+      </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

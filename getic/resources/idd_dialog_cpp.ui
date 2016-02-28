@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>377</width>
+         <height>87</height>
+        </rect>
+      </property>
+  <property name='idd_dialog_cpp'>
+   <string>Dialog</string>
+  </property>
+<!-- UNKNOWN_CONTROLE  LISTBOX LB_OUT 0 0 375 85 LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP WS_EX_STATICEDGE -->
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 

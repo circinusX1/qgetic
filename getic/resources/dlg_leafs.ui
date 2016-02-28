@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<ui version='4.0'>
+ <class>Dialog</class>
+ <widget class='QDialog' name='Dialog'>
+      <property name='geometry'>
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>428</width>
+         <height>183</height>
+        </rect>
+      </property>
+  <property name='Leaf Inspector'>
+   <string>Dialog</string>
+  </property>
+     <widget class='QPushButton' name='IDCANCEL0'>
+      <property name='geometry'>
+        <rect>
+         <x>927</x>
+         <y>405</y>
+         <width>125</width>
+         <height>35</height>
+        </rect>
+      </property>
+        <property name='text'>
+         <string>Close</string>
+        </property>
+       </widget>
+     <widget class='QListWidget' name='LC_TEXREFS'>
+      <property name='geometry'>
+        <rect>
+         <x>12</x>
+         <y>12</y>
+         <width>827</width>
+         <height>370</height>
+        </rect>
+      </property>
+       </widget>
+     <widget class='QTreeWidget' name='TREE_BSP'>
+      <property name='geometry'>
+        <rect>
+         <x>842</x>
+         <y>17</y>
+         <width>210</width>
+         <height>367</height>
+        </rect>
+      </property>
+     </widget>   
+      <widget class='QComboBox' name='CB_CONTENT'>
+      <property name='geometry'>
+        <rect>
+         <x>585</x>
+         <y>395</y>
+         <width>260</width>
+         <height>220</height>
+        </rect>
+      </property>
+      </widget>
+      <widget class='QLabel' name='IDC_STATIC1'>
+      <property name='geometry'>
+        <rect>
+         <x>502</x>
+         <y>405</y>
+         <width>65</width>
+         <height>20</height>
+        </rect>
+      </property>
+        <property name='text'>
+          <string>Content</string>
+         </property>
+      </widget>
+      </widget>
+   <resources/>
+ <connections/>
+</ui> 
