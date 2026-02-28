@@ -6,3 +6,8 @@ getic3d qt porting for linux.
 Compiles with QT5 under Ubuntu 14.
 
 
+* Software related music:
+* 
+    * [![Found this funny video](https://ghitara.com/images/local_gith.png)](https://www.youtube.com/@AIureaSonus)
+ 
+  
